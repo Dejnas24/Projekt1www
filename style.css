@@ -1,0 +1,446 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* //////////////////////////////////////////// */
+
+body
+{
+	margin: 0px;
+	font-family: 'Dancing Script', cursive;
+	font-size: 24px;
+	color: #2b1500;
+	line-height: 1.5;
+}
+
+.kontyner
+{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.menu-top
+{
+	height: 80px;
+	background-color: #2b1500;
+	margin-top: none;
+	
+}
+
+.slider
+{
+	padding: 285px 0;
+	background: url("img/slider.jpg") 0 -30px;
+}
+
+.slider h1
+{
+	font-size: 58px;
+	line-height: 1.4;
+	color: #ffffc6;
+	text-align: center;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.slider p
+{
+	font-size: 30px;
+	color: #8e010a;
+	text-align: center;
+	line-height: 1.2;
+	font-style: italic;
+}
+
+.button
+{
+	border-radius: 10px;
+	border: none;
+	padding: 10px 20px;
+	margin: 20px 5px;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+.center
+{
+	text-align: center;
+}
+
+#button-1
+{
+	background: #ff4040;
+	color: #ffffc6;
+}
+
+#button-1:hover
+{
+	background: #ff6262;
+}
+#button-2
+{
+	background: #008040;
+	color: #ffffc6;
+}
+#button-2:hover
+{
+	background: #00a262;
+}
+
+
+.reklama
+{
+	background-color: #ffffff;
+}
+
+.tytul-h2
+{
+	text-align: center;
+	font-size: 44px;
+	padding-bottom: 15px;
+}
+.reklama-p
+{
+	text-align: center;
+	font-size: 32px;
+	padding-bottom: 20px;
+}
+/*.blok1
+{
+	float: left;
+	width: 33.3333%;
+	text-align: center;
+	padding-top: 40px;
+	
+}
+
+.blok2
+{
+	float: left;
+	width: 50%;
+	text-align: center;
+}*/
+
+.blok1, .blok2
+{
+	width: 100%;
+	float: none;
+	text-align: center;
+}
+
+@media screen and (min-width: 1000px)
+{
+	.blok1
+{
+	float: left;
+	width: 33.3333%;
+	text-align: center;
+	padding-top: 40px;
+	
+}
+
+.blok2
+{
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+}
+.blok1 img
+{
+	width: 256px;
+	height: 256px;
+	border-radius: 180px;
+	border: solid 20px #dddddd;
+}
+#img-1 img:hover
+{
+	border: solid 20px #ff6262;
+}
+#img-2 img:hover
+{
+	border: solid 20px #00a262;
+}
+#img-3 img:hover
+{
+	border: solid 20px #ffff71;
+}
+h3
+{
+	font-size: 32px;
+	text-align: center;
+	padding: 40px 0 25px 0;
+	font-weight: 600;
+}
+.blok1 p
+{
+	margin: 0 18px;
+	text-align: justify;
+}
+section
+{
+	clear: both;
+	padding: 60px 0 100px 0;
+	overflow: auto;
+}
+.zawartosc
+{
+	background-color: #2b1500;
+	color: #ffffc6;
+}
+.blok2 p 
+{
+	margin: 0 20px;
+	text-align: justify;
+}
+.blok2 a
+{
+	text-decoration: none;
+	color: #ffffc6;
+}
+.kontakt
+{
+	background-color: #cccccc;
+}
+#kontakt-1
+{
+	text-align: left;
+	padding-top: 40px ;
+}
+.kontakt input
+{
+	color: #2b1500;
+	border-radius: 10px;
+	border: 2px solid #dddddd;
+	padding: 10px;
+	width: 80%;
+	margin-bottom: 10px;
+}
+.kontakt textarea
+{
+	color: #2b1500;
+	border-radius: 10px;
+	border: 2px solid #dddddd;
+	padding: 10px;
+	width: 80%;
+	min-height: 150px;
+	margin-bottom: 10px;
+	font-family: 'Dancing Script', cursive;
+	font-size: 20px;
+}
+#button-3
+{
+	margin: 0;
+	font-size: 24px;
+	font-family: 'Dancing Script', cursive;
+	background: #008040;
+	color: #ffffc6;
+}
+#button-3:hover
+{
+	background: #00a262;
+}
+.blok2 img
+{
+	width: 85%;
+	height: 85%;
+	
+}
+.blok2 h3
+{
+	padding: 10px 0;
+	font-weight: 400;
+}
+.cocialmedia
+{
+	background-color: #272727;
+	padding: 0;
+}
+.cocial 
+{
+	float: left;
+	width: 260px;
+	height: 162px;
+	padding: 5px;
+	text-align: center;
+	display: inline-block;	
+}
+#fb:hover
+{
+	background-color: #4668b3;
+}
+#yt:hover
+{
+	background: #d94348;
+}
+#tw:hover
+{
+	background: #3095d3;
+}
+#gp:hover
+{
+	background: #d95333;
+}
+a.link  
+{
+	text-decoration: none;
+	color: #ffffff;
+	display: block;
+	width: 270px;
+	height: 162px;
+}
+.footer
+{
+	background-color: #171717;
+	padding: 20px;
+	color: #ffffc6;
+	font-size: 28px;	
+}
+.menu
+{
+	float: right;
+	display: block;
+}
+.menu ol
+{
+	font-size: 28px;
+	line-height: 80px;	
+}
+.menu ol > li
+{
+	float: left;
+	width: 150px;
+	text-align: center;	
+}
+.menu-top a
+{
+	color: #ffffc6;
+	text-decoration: none;
+	display: block;
+}
+.menu ol > li:hover
+{
+	background-color: #ffffc6;
+}
+.menu ol > li:hover >a
+{
+	color: #2b1500;
+}
+#logo img
+{
+	float: left;
+	color: #ffffc6;
+	width: 70px;
+	height: 70px;
+	padding: 5px;	
+}
+.menu ol > li > ul 
+{
+	height: 0px;
+	display: none;
+	text-align: center;
+	
+}
+.menu ol > li:hover >ul
+{
+	display: block;
+}
+.menu ol > li > ul > li 
+{
+	background: #2b1500;
+	position: relative;
+	right: 30px;
+	width: 180px;
+	line-height: 50px;
+	z-index: 100;
+	border-right: 5px solid #ffffc6;
+	border-bottom: 2px dotted #ffffc6;
+	
+}
+.menu ol > li > ul > li:last-child
+{
+	border-bottom: none;
+}
+.menu ol > li > ul > li:hover
+{
+	background:  #ffffc6;
+	border-right: 5px solid #2b1500;
+	border-bottom: 2px dotted #2b1500;
+}
+.menu ol > li > ul > li:hover:last-child
+{
+	border-bottom: none
+}
+.menu ol > li > ul > li:hover > a
+{
+	color:   #2b1500;
+}
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+.przewijanie
+{
+	
+	text-decoration: none;
+	background: url("img/przycisk2.gif");
+	opacity: 0.5;
+	width: 80px;
+	height: 80px;
+	bottom: 50px;
+	right: 50px;
+	position: fixed;
+	display: none;
+}
